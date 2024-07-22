@@ -1,0 +1,10 @@
+div {
+  color: blue;
+  margin-left: 100px;
+}
+
+span {
+  color: red;
+  display: inline-block;
+  margin-left: 100px;
+}

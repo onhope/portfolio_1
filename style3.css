@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Danjo-bold-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Danjo-bold-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#box {
+  width: 500px;
+  height: 400px;
+  background-color: palegreen;
+  border: 10px solid black;
+  border-radius: 50px;
+  background-image: url(./img.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: blur(3px);
+}
+
+p {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 3;
+  letter-spacing: -2px;
+  -webkit-text-stroke: 2px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 200;
+}
+
+p:hover {
+  color: black;
+  font-size: 20px;
+  transition: .5s;
+  transition-delay: 1s;
+  transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.box-item {
+  font-weight: 100;
+  font-family: "Danjo-bold-Regular";
+  color: black;
+}
+
+.box2 {
+  margin: 50px 50px;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transform: rotate(45deg);
+  transition: 2s;
+}
+
+.box3 {
+  margin: 50px 50px;
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transform: translate(190px);
+  transition: 2s;
+}
