@@ -1,0 +1,315 @@
+body {
+  background-color: #FFF6E9;
+}
+
+.main {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline;
+  align-self: center;
+  margin: 0;
+  margin-left: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#40A2E3;
+  transition: 0.3s;
+}
+
+.site-name {
+  margin: 0;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #40A2E3;
+}
+
+.nav-menu {
+  text-decoration: none;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* board */
+.board {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.ko-comment {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+.sample {
+  background-color: #BBE2EC;
+}
+
+.sample:hover {
+  background-color: transparent;
+  color: white;
+  transition: none;
+  -webkit-text-stroke: 1px black;
+}
+
+.highlight {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover {
+  color: black;
+  background-color: #AD7BE9;
+  transition: none;
+}
+
+.type2:hover {
+  background-color: #EFF396;
+}
+
+.type3:hover {
+  background-color: #FFD0EC;
+}
+
+.type4:hover {
+  background-color: #F6B17A;
+}
+
+.type5:hover {
+  background-color: #85CDFD;
+}
+
+.en-comment {
+  font-family:"Nanum Gothic", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: -0.3;
+}
+
+/* recent works */
+.menu {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #40A2E3;
+
+  text-align: right;
+  margin-top: 100px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.contact {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.links>a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.footer>p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* Info section */
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 100px;
+}
+
+#profile {
+  width: 400px;
+  margin-right: 60px;
+}
+
+.intro>h2 {
+  margin: 0;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 35px;
+}
+
+.intro>p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+
+#capability {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 30px;
+}
+
+/* valeu-section */
+/* value-menu */
+.value-menu {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 35px;
+  margin: 30px 100px;
+}
+
+.value-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 100px 150px;
+  margin-top: 20px;
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.value-icon {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border: 2px solid #c2B4AB;
+  border-radius: 100px;
+}
+
+.value-intro {
+  margin-left: 30px;
+}
+
+.value-name {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.value-exp {
+  font-family:  "Nanum Gothic", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* footer-section */
+
+.footer-comment {
+  text-align: center;
+}
+
+a[title="freepik"]:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* works */
+.works {
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+  align-items: center;
+}
+
+.thum {
+  width: 600px;
+}
+
+.article-info {
+  margin: 0px 20px;
+}
+
+.article-name {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.article-name:hover {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.article-desc {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.more {
+  width: content;
+  height: content;
+  float: right;
+  margin-right: 10px;
+  padding: 0;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+#name1 {
+  position: relative;
+  right: 70px;
+}
+
+#name2 {
+  text-align: right;
+  position: relative;
+  left: 90px;
+}
